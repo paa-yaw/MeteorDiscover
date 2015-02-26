@@ -1,0 +1,8 @@
+<template name="layout">
+<div class="container">
+	{{> header}}
+		<div id="main" class="row-fluid">
+			{{> yield}}<!--This takes any templated specific to a route -->
+		</div>
+	</div>
+</template>
